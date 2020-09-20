@@ -4,3 +4,4 @@ venv-mt/**
 **/__pycache__/**
 resources/**
 .idea/**
+key.py
