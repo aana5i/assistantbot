@@ -4,3 +4,4 @@ venv-mt/**
 **/__pycache__/**
 sound/**
 resources/**
+.idea/**
