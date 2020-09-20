@@ -2,3 +2,9 @@ lxml
 bs4
 pygame
 speechrecognition
+googletrans
+pyowm
+ibm-cloud-sdk-core
+websocket-client
+opencv-python
+keyboard
