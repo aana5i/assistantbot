@@ -15,6 +15,7 @@ from pyowm import OWM
 
 import read as aana
 from piano_main import launch as piano
+from key import owm_api_key
 
 
 def myCommand():
@@ -137,7 +138,7 @@ def assistant(command):
             # with urlopen(f"http://api.openweathermap.org/data/2.5/weather?q=osaka&APPID=90b96ea8e22533acce3abfe3be80c607") as url:
             #     data = json.loads(url.read().decode())
             #     print(data)
-            owm = OWM(API_key='90b96ea8e22533acce3abfe3be80c607', language='ja')
+            owm = OWM(API_key=owm_api_key, language='ja')
             translator = Translator()
             tmp_city = translator.translate(city, dest='en')
 

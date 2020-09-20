@@ -42,6 +42,7 @@ def get_audio(counter, _audio):
             audio(line, audio_file_path)
         get_response(f'news\\news{counter}')
 
+
 def get_single_audio(text):
     audio_file_path = join(dirname(__file__), f'sound\\{text}.mp3')
     if not exists(audio_file_path):
